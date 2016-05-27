@@ -4,7 +4,7 @@
 
 I made this app for a garage sale we were planning to have.
 
-![Screenshot](https://raw.githubusercontent.com/featherless/2003-GarageSale/master/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/featherless/2003-GarageSale/master/gfx/screenshot.png)
 
 # License
 
