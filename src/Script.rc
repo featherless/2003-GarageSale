@@ -1,0 +1,175 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN DIALOG DISCARDABLE  0, 0, 153, 87
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "GarageSale Program"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Add Values",IDC_ADD,80,16,50,14
+    PUSHBUTTON      "Edit Values",IDC_EDIT,80,30,50,14
+    PUSHBUTTON      "WriteToLog",IDC_WRITE,80,47,50,14
+    PUSHBUTTON      "Save Data",IDC_SAVE,80,61,50,14
+    CONTROL         "On",IDC_AUTO_ON,"Button",BS_AUTORADIOBUTTON,16,38,25,10
+    CONTROL         "Off",IDC_AUTO_OFF,"Button",BS_AUTORADIOBUTTON,16,48,25,
+                    10
+    LTEXT           "Autosave",IDC_STATIC,16,29,31,8
+    GROUPBOX        "Menu",IDC_STATIC,76,7,60,72
+    PUSHBUTTON      "About",IDC_ABOUT,7,66,50,14
+END
+
+IDD_ADD DIALOG DISCARDABLE  0, 0, 196, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add Value"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_VALUE,41,14,148,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PRICE,41,26,148,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_QUANTITY,41,38,148,12,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "OK",IDC_OK,72,58,50,14
+    PUSHBUTTON      "Cancel",IDC_CANCEL,72,72,50,14
+    LTEXT           "Price  $",IDC_STATIC,13,28,25,8
+    LTEXT           "Name",IDC_STATIC,13,16,20,8
+    LTEXT           "Quantity",IDC_STATIC,13,40,27,8
+END
+
+IDD_EDIT DIALOG DISCARDABLE  0, 0, 331, 166
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Edit"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_VALUES,7,7,118,152,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Done",IDC_DONE,190,135,50,14
+    EDITTEXT        IDC_VALUE,168,20,148,12,ES_AUTOHSCROLL
+    LTEXT           "Name",IDC_STATIC,134,23,20,8
+    EDITTEXT        IDC_PRICE,168,34,148,14,ES_AUTOHSCROLL
+    LTEXT           "Price  $",IDC_STATIC,134,38,25,8
+    EDITTEXT        IDC_QUANTITY,203,66,26,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Quantity",IDC_STATIC,202,54,27,8
+    PUSHBUTTON      "Edit",IDC_EDIT,190,90,50,14,WS_DISABLED
+    PUSHBUTTON      "Remove",IDC_REMOVE,190,104,50,14,WS_DISABLED
+    PUSHBUTTON      "Clear All",IDC_CLEAR,265,104,50,14
+END
+
+IDD_ABOUT DIALOG DISCARDABLE  0, 0, 186, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "About GarageSale",IDC_STATIC,7,7,172,81
+    LTEXT           "Created by: Jeff Verkoeyen",IDC_STATIC,50,22,86,8
+    LTEXT           "Email: bloodright@msn.com",IDC_STATIC,49,33,88,8
+    LTEXT           "Created using C++ and Win32",IDC_STATIC,45,44,96,8
+    PUSHBUTTON      "OK",IDC_OK,65,58,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 146
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 80
+    END
+
+    IDD_ADD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 189
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_EDIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 324
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 159
+    END
+
+    IDD_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
